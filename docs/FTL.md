@@ -20,9 +20,6 @@ date: {{ site.time | date: "%d-%m-%Y" }}
 
 </div>
 
-* TOC
-  {:toc}
-
 # Ligaordnung der Flensburger Tischkicker Liga
 
 ## 1. Allgemeines
