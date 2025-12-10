@@ -1,0 +1,91 @@
+name: Generate PDF
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: 
+
+jobs:
+  generate-pdf:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    # Datum des letzten Commits erhalten
+    - name: Get Last Commit Date
+      run: |
+        echo "LAST_UPDATED_DATE=$(git log -1 --format=%cd --date=short)" >> $GITHUB_ENV
+
+    # Temporäre Markdown-Datei vorbereiten
+    - name: Prepare Markdown for PDF
+      run: |
+        mkdir -p temp
+        for file in docs/*.md; do
+          filename=$(basename -- "$file")
+          name="${filename%.*}" # Extract file name without extension
+          cp "$file" "temp/${name}_temp.md"
+          
+          # Replace date placeholder in Markdown content
+          sed -i "s/{{ site.time | date: \"%d-%m-%Y\" }}/$LAST_UPDATED_DATE/g" "temp/${name}_temp.md"
+          
+          # Replace TOC syntax for LaTeX
+          sed -i '/^\* TOC$/{N;s|.*\n.*$|\\clearpage\\renewcommand{\\contentsname}{Inhaltsverzeichnis}\n\\tableofcontents\n\\clearpage|}' "temp/${name}_temp.md"
+          
+          # Remove HTML-only blocks for PDF generation
+          sed -i '/<div class="html-only"/,/^<\/div>$/d' "temp/${name}_temp.md"
+          
+          sed -i 's/<!--PAGEBREAK-->/\\newpage/g' "temp/${name}_temp.md"
+          
+          sed -i '
+          s|<ol type="a">|\\begin{enumerate}[label=\\alph*.]|g;
+          s|</ol>|\\end{enumerate}|g;
+          s|<li>|\\item |g;
+          s|</li>||g;
+          ' "temp/${name}_temp.md"
+
+
+        done
+
+    # Save the temp markdown files as artifacts for inspection
+    #- name: Upload temp Markdown files as artifacts
+    #  uses: actions/upload-artifact@v3
+    #  with:
+    #    name: temp-markdown-files
+    #    path: temp/
+
+    # Pandoc und LaTeX installieren
+    - name: Install Pandoc and LaTeX
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y pandoc texlive texlive-latex-extra texlive-fonts-recommended lmodern
+        sudo apt-get install -y texlive-xetex
+
+    # Markdown zu PDF konvertieren
+    - name: Convert Markdown to PDF
+      run: |
+        mkdir -p assets/pdf
+        for file in temp/*.md; do
+          filename=$(basename -- "$file")
+          
+          # Remove the "_temp" suffix to restore original filename
+          name="${filename%_temp*}"
+          pandoc "$file" -o "assets/pdf/${name}.pdf" \
+          --toc-depth=2 \
+          --pdf-engine=xelatex \
+          -V geometry:margin=1in \
+          -V header-includes="\\usepackage{enumitem}" \
+          --resource-path=./docs \
+          -f markdown+smart
+
+        done
+
+    # Aktualisiertes PDF in das Repository committen
+    - name: Commit PDF to repository
+      run: |
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "actions@github.com"
+        git add assets/pdf/*.pdf
+        git commit -m "Update PDF versions"
+        git push origin main
