@@ -1,0 +1,232 @@
+/* Titel des Dokuments */
+.title {
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Stil für das Startbild in Markdown */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    display: block;
+}
+
+/* Grundlegendes Styling für eine moderne Optik */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #146a1c;
+}
+
+/* Wrapper für den Inhalt */
+.wrapper {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Stil für das Inhaltsverzeichnis (TOC) */
+#markdown-toc {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 40px;
+}
+
+#markdown-toc li {
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+#markdown-toc li a::before {
+    color: #146a1c;
+}
+
+#markdown-toc ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+#markdown-toc a {
+    text-decoration: none;
+    color: #146a1c;
+    transition: color 0.2s;
+}
+
+#markdown-toc a:hover {
+    color: #146a1c;
+}
+
+/* Überschriftenstil */
+h1, h2, h3, h4 {
+    color: #146a1c;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    font-size: 28px;
+    border-bottom: 2px solid #146a1c;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+/* Absatzstil */
+p {
+    margin: 0 0 20px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Links im Fließtext */
+a {
+    color: #146a1c;
+    text-decoration: none;
+    border-bottom: 1px solid #146a1c;
+}
+
+a:hover {
+    color: #146a1c;
+    border-bottom-color: #146a1c;
+}
+
+/* Tabellenstil */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #146a1c;
+    color: white;
+}
+
+/* Schattierungen für die Tabelle */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Verbesserte Abstände für den Seiteninhalt */
+ul, ol {
+    margin: 0 0 20px 1px;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#back-to-top {
+    cursor: pointer;
+    border: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #146a1c;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    display: none; /* Der Button wird standardmäßig ausgeblendet */
+    transition: background-color 0.3s ease;
+}
+
+#back-to-top:hover {
+    background-color: #146a1c;
+}
+
+/* anchor icon styling */
+.heading-anchor {
+    text-decoration: none;       /* remove underline */
+    margin-left: 0.5rem;
+    opacity: 0.0;                /* hide by default */
+    transition: opacity 150ms ease, transform 150ms ease;
+    font-size: 0.9em;
+    color: inherit;              /* match heading color */
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    border-bottom: unset;
+}
+
+/* reveal when heading hovered or anchor focused */
+h1:hover .heading-anchor,
+h2:hover .heading-anchor,
+h3:hover .heading-anchor,
+h4:hover .heading-anchor,
+h5:hover .heading-anchor,
+h6:hover .heading-anchor,
+.heading-anchor:focus {
+    opacity: 1;
+    transform: translateY(-1px);
+}
+
+/* tooltip */
+.anchor-tooltip {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background: #146a1c;
+    color: #fff;
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    white-space: nowrap;
+    opacity: 0;
+    margin: 0 auto;
+    transition: opacity 120ms ease, transform 120ms ease;
+    pointer-events: none;
+}
+
+/* show tooltip when we add .visible */
+.anchor-tooltip.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* optional: make icon slightly dim until hover */
+.heading-anchor .anchor-icon {
+    height: 28px;
+    opacity: 0.75;
+    transition: opacity 120ms;
+}
+.heading-anchor:hover .anchor-icon,
+.heading-anchor:focus .anchor-icon {
+    opacity: 1;
+}

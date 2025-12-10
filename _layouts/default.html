@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+</head>
+<body>
+    <div class="wrapper">
+        {{ content }}
+    </div>
+    
+    <!-- Nach oben Button -->
+    <button onclick="scrollToTop()" id="back-to-top">Nach oben</button>
+
+    <span class="anchor-tooltip">Copied!</span>
+    <script>
+        // Script, um den Button bei Scrollen einzublenden
+        const backToTopButton = document.getElementById("back-to-top");
+
+        window.onscroll = function() {
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                backToTopButton.style.display = "block"; // Zeigt den Button nach Scrollen an
+            } else {
+                backToTopButton.style.display = "none"; // Versteckt den Button, wenn man oben ist
+            }
+        };
+
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth" // smooth scroll (remove for instant jump)
+            });
+        }
+    </script>
+
+    <script>
+        (function () {
+            'use strict';
+
+            // Select headings that have an id
+            const headings = document.querySelectorAll('h1[id], h2[id], h3[id], h4[id], h5[id], h6[id]');
+
+            if (!headings.length) return;
+
+            // Helper: copy to clipboard with fallback
+            function copyTextToClipboard(text) {
+                if (navigator.clipboard && navigator.clipboard.writeText) {
+                    return navigator.clipboard.writeText(text);
+                }
+                // Fallback for older browsers
+                return new Promise(function (resolve, reject) {
+                    const ta = document.createElement('textarea');
+                    ta.value = text;
+                    ta.style.position = 'fixed';
+                    ta.style.left = '-9999px';
+                    document.body.appendChild(ta);
+                    ta.select();
+                    try {
+                        const ok = document.execCommand('copy');
+                        document.body.removeChild(ta);
+                        if (ok) resolve();
+                        else reject();
+                    } catch (err) {
+                        document.body.removeChild(ta);
+                        reject(err);
+                    }
+                });
+            }
+
+            const svgIcon = `{% include icons/copy-link.svg %}`
+
+            headings.forEach(function (h) {
+                const id = h.id;
+                if (!id) return;
+
+                // Create anchor element
+                const a = document.createElement('a');
+                a.className = 'heading-anchor';
+                a.href = '#' + encodeURIComponent(id);
+                a.setAttribute('aria-label', 'Copy link to clipboard');
+                a.setAttribute('title', 'Copy link to clipboard');
+                a.setAttribute('tabindex', '0');
+
+                // Use an icon (unicode) or SVG
+                const icon = document.createElement('span');
+                icon.className = 'anchor-icon';
+                icon.innerHTML = svgIcon;
+                a.appendChild(icon);
+
+                // Tooltip element
+                const tooltip = document.querySelector('span.anchor-tooltip');
+
+                // Click handler: copy full URL (origin + path + fragment)
+                a.addEventListener('click', function (ev) {
+                    ev.preventDefault(); // don't jump (we'll still update hash if desired)
+                    const url = location.origin + location.pathname + location.search + '#' + id;
+                    copyTextToClipboard(url).then(function () {
+                        // show tooltip
+                        tooltip.classList.add('visible');
+                        // optional: update the address bar hash without jumping
+                        history.replaceState(null, '', '#' + id);
+                        setTimeout(function () {
+                            tooltip.classList.remove('visible');
+                        }, 1500);
+                    }).catch(function () {
+                        // fallback feedback
+                        tooltip.textContent = 'Copy failed';
+                        tooltip.classList.add('visible');
+                        setTimeout(function () {
+                            tooltip.classList.remove('visible');
+                            tooltip.textContent = 'Copied!';
+                        }, 1500);
+                    });
+                });
+
+                // Also allow keyboard "Enter" to copy
+                a.addEventListener('keydown', function (ev) {
+                    if (ev.key === 'Enter' || ev.key === ' ') {
+                        ev.preventDefault();
+                        a.click();
+                    }
+                });
+
+                // Append anchor after heading text
+                h.appendChild(a);
+            });
+        })();
+    </script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+title: "Ligaordnung"
+description: "Ligaordnung des MKK"
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-toc
