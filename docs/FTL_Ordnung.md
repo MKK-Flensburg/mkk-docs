@@ -26,7 +26,7 @@ date: {{ site.time | date: "%d-%m-%Y" }}
 
 ## 1. Allgemeines
 
-Diese Ligaordnung regelt den Ablauf, die Organisation und die Teilnahmebedingungen der Flensburger Tischkicker Liga (kurz: FTL).   
+Diese Ligaordnung regelt den Ablauf, die Organisation und die Teilnahmebedingungen der Flensburger Tischkicker Liga (kurz: FTL).  
 Die Liga richtet sich an bis zu acht Teams. 
 Bei mehr Anmeldungen wird eine Warteliste geführt. 
 Tritt ein Team nicht an, rückt das erste Team der Warteliste nach.
