@@ -1,5 +1,5 @@
 ---
-title: "Ligaordnung Flensburger Tischkicker Liga (FTL)"
+title: "Regeln Flensburger Tischkicker Liga (FTL)"
 author: "![MKK Logo](images/mkk-logo.png){width=50%}"
 date: {{ site.time | date: "%d-%m-%Y" }}
 ---
@@ -7,7 +7,7 @@ date: {{ site.time | date: "%d-%m-%Y" }}
 <div class="html-only" style="text-align: center;">
     <div class="title" style="text-align: center;">
         <img src="images/mkk-logo.png" alt="MKK Logo" style="display: block; margin: 0 auto;width: 20%" />
-        Ligaordnung Flensburger Tischkicker Liga (FTL)
+        Regeln Flensburger Tischkicker Liga (FTL)
     </div>
 
     <p style="text-align: center;">
@@ -22,7 +22,7 @@ date: {{ site.time | date: "%d-%m-%Y" }}
 
 <!--PAGEBREAK-->
 
-# Regelwerk Tischfußball
+# Regelwerk Flensburger Tischkicker Liga
 
 ## 1. Spielmodus
 
