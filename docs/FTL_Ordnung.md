@@ -70,7 +70,7 @@ Tritt ein Team nicht an, rückt das erste Team der Warteliste nach.
 * Gewertet werden ausschließlich die gewonnenen Doppel.
 * Sätze sind für die Wertung nicht relevant.
 * Mögliche Begegnungsergebnisse sind: **3:0**, **2:1**, **1:2**, **0:3**, sowie **0:0** (bei Überschreitung der Ausweichfrist).
-* Die Ergebnisse müssen von einem der Teams bei der Ligaleitung eingereicht werden.
+* Die Ergebnisse müssen von den Teamkapitänen bei der Ligaleitung eingereicht und bestätigt werden.
 
 ## 7. Schlussbestimmungen
 
