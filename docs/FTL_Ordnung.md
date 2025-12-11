@@ -6,7 +6,7 @@ date: {{ site.time | date: "%d-%m-%Y" }}
 
 <div class="html-only" style="text-align: center;">
     <div class="title" style="text-align: center;">
-        <img src="images/mkk-logo.png" alt="TFVSH Logo" style="display: block; margin: 0 auto;width: 20%" />
+        <img src="images/mkk-logo.png" alt="MKK Logo" style="display: block; margin: 0 auto;width: 20%" />
         Ligaordnung Flensburger Tischkicker Liga (FTL)
     </div>
 
@@ -14,8 +14,8 @@ date: {{ site.time | date: "%d-%m-%Y" }}
         Zuletzt geändert am:  {{ site.time | date: "%d-%m-%Y" }}
     </p>
     <p>
-        <a href="./../assets/pdf/FTL.pdf" target="_blank">Download als PDF</a><br />
-        <a href="https://github.com/MKK-Flensburg/mkk-docs/blob/main/docs/FTL.md" target="_blank">GitHub Repository</a>
+        <a href="./../assets/pdf/FTL_Ordnung.pdf" target="_blank">Download als PDF</a><br />
+        <a href="https://github.com/MKK-Flensburg/mkk-docs/blob/main/docs/FTL_Ordnung.md" target="_blank">GitHub Repository</a>
     </p>
 
 </div>
