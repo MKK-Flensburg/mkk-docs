@@ -75,6 +75,7 @@ Tritt ein Team nicht an, rückt das erste Team der Warteliste nach.
 
 * In jeder Begegnung werden 3 Doppel gespielt.
 * Kein Doppel darf in derselben Begegnung mit identischer Besetzung antreten.
+* Die beiden Teamkapitäne erstellen jeweils vor Begegnungsbeginn ihre Aufstellung und teilen sie dem jeweils anderen mit. 
 * Jedes Doppel wird im Modus Best-of 5 ausgespielt.
 * Es gibt keine Verlängerung im letzten Satz.
 
