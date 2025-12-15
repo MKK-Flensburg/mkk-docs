@@ -33,14 +33,14 @@ Tritt ein Team nicht an, rückt das erste Team der Warteliste nach.
 
 ## 2. Kommunikation
 
-* Die organisatorische Kommunikation der Liga erfolgt primär über die Telegram-Gruppe: FTL.
+* Die organisatorische Kommunikation der Liga erfolgt primär über die Telegram-Gruppe: @FlensTischLiga.
 * Alle Teamkapitäne sind verpflichtet, dieser Gruppe beizutreten.
 * Terminabsprachen, Ankündigungen der Ligaleitung sowie organisatorische Hinweise erfolgen über dieses Medium.
 * Informationen, die über die Telegram-Gruppe veröffentlicht werden, gelten als bekanntgegeben.
 
 ## 2. Teams
 
-* Ein Team kann sich zur jeweils nächsten Saison über folgendes Google Form anmelden. //TODO LINK EINFÜGEN
+* Ein Team kann sich zur jeweils nächsten Saison über [dieses Google Forms](https://forms.gle/NstwNGLCHDmkLS9AA) anmelden.
 * Die Teilnahme ist ausschließlich volljährigen Personen gestattet. Die Ligaleitung behält sich vor Ausnahmen zu genehmigen.
 * Jedes Team benötigt einen Teamnamen.
 * Jedes Team muss einen Teamkapitän bestimmen.  
