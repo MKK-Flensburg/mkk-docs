@@ -31,9 +31,17 @@ Die Liga richtet sich an bis zu acht Teams.
 Bei mehr Anmeldungen wird eine Warteliste geführt. 
 Tritt ein Team nicht an, rückt das erste Team der Warteliste nach.
 
+## 2. Kommunikation
+
+* Die organisatorische Kommunikation der Liga erfolgt primär über die Telegram-Gruppe: FTL.
+* Alle Teamkapitäne sind verpflichtet, dieser Gruppe beizutreten.
+* Terminabsprachen, Ankündigungen der Ligaleitung sowie organisatorische Hinweise erfolgen über dieses Medium.
+* Informationen, die über die Telegram-Gruppe veröffentlicht werden, gelten als bekanntgegeben.
+
 ## 2. Teams
 
-* Die Teilnahme ist ausschließlich volljährigen Personen gestattet.
+* Ein Team kann sich zur jeweils nächsten Saison über folgendes Google Form anmelden. //TODO LINK EINFÜGEN
+* Die Teilnahme ist ausschließlich volljährigen Personen gestattet. Die Ligaleitung behält sich vor Ausnahmen zu genehmigen.
 * Jedes Team benötigt einen Teamnamen.
 * Jedes Team muss einen Teamkapitän bestimmen.  
   Aufgaben des Kapitäns: 
@@ -41,38 +49,47 @@ Tritt ein Team nicht an, rückt das erste Team der Warteliste nach.
   * Begegnungsverwaltung 
   * Ergebnismeldung
 * Ein Team besteht aus mindestens 3 und maximal 6 Spielern.
+* Alle Spieler müssen mit Vor- und Nachname gemeldet werden.
 * Spielerwechsel während einer laufenden Saison sind nicht zulässig.
 * Spielerwechsel sind ausschließlich zwischen den Saisons erlaubt.
+* Ein Team kann jedoch mit noch nicht in anderen Teams gemeldeten Spielern während einer Saison aufgefüllt werden.
 
 ## 3. Saisons
 
 * Ein Jahr besteht aus zwei Saisons: der Frühjahrssaison und der Herbstsaison.
 * Die Frühjahrssaison läuft von Februar bis Mai.
 * Die Herbstsaison läuft von August bis November.
-* Eine Saison umfasst 7 Begegnungen je Team.
+* Eine Saison wird im Modus "Jeder gegen Jeden" gespielt.
 
 ## 4. Spieltage und Austragung
 
 * Begegnungen finden am 2. und 4. Montag eines Monats statt.
 * Ausweichtermine sind zulässig, sofern beide Teams zustimmen. Der Ausweichtermin muss innerhalb von **7 Tagen** nach dem regulären Spieltag liegen.
-* Wird kein Spieltermin innerhalb der Frist wahrgenommen, wird die Begegnung **0:0 gewertet**.
-* Der Spielort sind die Vereinsräume des MKK. Toosbüystraße 16, 24939 Flensburg.
+* Wird kein Spieltermin innerhalb der Frist wahrgenommen, wird die Begegnung als nicht gespielt bewertet und kann auch nicht mehr nachgeholt werden.
+* Der Spielort sind primär die Vereinsräume des MKK. Toosbüystraße 16, 24939 Flensburg.
 * Spiele können zwischen 19:00 und 22:00 Uhr ausgetragen werden.
+* Alternativspielorte sind zulässig.
+* Wird ein Spiel auf einen Ausweichtermin verschoben, müssen sich die beteiligten Teamkapitäne um einen Spielort bemühen. 
 
 ## 5. Spielmodus
 
 * In jeder Begegnung werden 3 Doppel gespielt.
 * Kein Doppel darf in derselben Begegnung mit identischer Besetzung antreten.
 * Jedes Doppel wird im Modus Best-of 5 ausgespielt.
+* Es gibt keine Verlängerung im letzten Satz.
 
 ## 6. Wertung
 
-* Gewertet werden ausschließlich die gewonnenen Doppel.
+* Innerhalb einer Begegnung werden ausschließlich die gewonnenen Doppel gewertet.
 * Sätze sind für die Wertung nicht relevant.
-* Mögliche Begegnungsergebnisse sind: **3:0**, **2:1**, **1:2**, **0:3**, sowie **0:0** (bei Überschreitung der Ausweichfrist).
+* Mögliche Begegnungsergebnisse sind: **3:0**, **2:1**, **1:2**, **0:3**.
+* Ausschlaggebend für die Gesamtwertung ist die Anzahl der gewonnenen Begegnungen. 
+* Sollten zwei Teams die gleiche Anzahl an Begegnungen gewonnen haben, ist die Anzahl aller gewonnenen Doppel ausschlaggebend.
 * Die Ergebnisse müssen von den Teamkapitänen bei der Ligaleitung eingereicht und bestätigt werden.
 
 ## 7. Schlussbestimmungen
 
+* Das Mitbringen von Fremdgetränken ist nicht gestattet, ausgenommen ist Wasser.
+* Die Ligaleitung hat das Recht, in begründeten Fällen Teams oder einzelne Spieler vorübergehend oder dauerhaft von der Liga auszuschließen.
 * Die Ligaordnung kann bei Bedarf durch die Ligaleitung angepasst oder erweitert werden.
 * Mit der Anmeldung eines Teams zur Liga wird diese Ordnung anerkannt.
