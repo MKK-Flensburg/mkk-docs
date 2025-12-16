@@ -1,6 +1,6 @@
 <div class="html-only" style="text-align: center;">
     <div class="title" style="text-align: center;">
-        <img src="docs/images/mkk-logo.png" alt="MKK Logo" style="display: block; margin: 0 auto;width: 20%" />
+        <img src="docs/images/FTL.png" alt="FTL Logo" style="display: block; margin: 0 auto;width: 20%" />
         Flensburger Tischkicker Liga (FTL)
     </div>
 

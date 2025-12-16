@@ -1,12 +1,12 @@
 ---
 title: "Regeln Flensburger Tischkicker Liga (FTL)"
-author: "![MKK Logo](images/mkk-logo.png){width=50%}"
+author: "![MKK Logo](images/FTL.png){width=50%}"
 date: {{ site.time | date: "%d-%m-%Y" }}
 ---
 
 <div class="html-only" style="text-align: center;">
     <div class="title" style="text-align: center;">
-        <img src="images/mkk-logo.png" alt="MKK Logo" style="display: block; margin: 0 auto;width: 20%" />
+        <img src="images/FTL.png" alt="MKK Logo" style="display: block; margin: 0 auto;width: 20%" />
         Regeln Flensburger Tischkicker Liga (FTL)
     </div>
 
