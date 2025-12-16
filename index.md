@@ -11,8 +11,8 @@
 
 ## Ligadokumente
 
-- [Flensburger Tischkicker Liga Ordnung](docs/FTL_Ordnung.md)
-- [Flensburger Tischkicker Liga Spielregeln](docs/FTL_Regeln.md)
+- [FTL Ordnung](docs/FTL_Ordnung.md)
+- [FTL Spielregeln](docs/FTL_Regeln.md)
 
 ## Organisation
 - [Teamanmeldung](https://forms.gle/NstwNGLCHDmkLS9AA)
