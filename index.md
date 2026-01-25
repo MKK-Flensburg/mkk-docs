@@ -24,7 +24,7 @@
 ## Saisons
 
 ### Frühjahr 2026
-#### Teams & Kader (Anmeldung weiterhin offen)
+
 | Team             | Kapitän | Mitglieder                             |
 |------------------|---------|----------------------------------------|
 | sos-k            | Saskia  | John<br>Tomke<br>Luca<br>Ole<br>Ruby   |
