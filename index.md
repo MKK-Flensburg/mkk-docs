@@ -24,5 +24,11 @@
 ## Saisons
 
 ### Frühjahr 2026
-- Teams & Kader (folgt nach Anmeldeschluss)
+#### Teams & Kader (Anmeldung weiterhin offen)
+| Team             | Kapitän | Mitglieder                             |
+|------------------|---------|----------------------------------------|
+| sos-k            | Saskia  | John<br>Tomke<br>Luca<br>Ole<br>Ruby   |
+| Antifa Hooligans | Jan     | Hartwig<br>Damian<br>Christian<br>Olaf |
+| Prontosaurus     | Marvin  | Jukka<br>Thekla<br>Zaki<br>Daniel      |
+
 - Tabelle, Statistik, Ergebnisse (folgt nach Anmeldeschluss)
