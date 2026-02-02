@@ -25,14 +25,18 @@
 
 ### Frühjahr 2026
 
-| Team             | Kapitän | Mitglieder                             |
-|------------------|---------|----------------------------------------|
-| sos-k            | Saskia  | John<br>Tomke<br>Luca<br>Ole<br>Ruby   |
-| Antifa Hooligans | Jan     | Hartwig<br>Damian<br>Christian<br>Olaf |
-| Prontosaurus     | Marvin  | Jukka<br>Thekla<br>Zaki<br>Daniel      |
+| Team             | Kapitän | Mitglieder                                 |
+|------------------|---------|--------------------------------------------|
+| sos-k            | Saskia  | John<br>Tomke<br>Luca<br>Ole<br>Ruby       |
+| Antifa Hooligans | Jan     | Hartwig<br>Damian<br>Christian<br>Olaf     |
+| Prontosaurus     | Marvin  | Jukka<br>Thekla<br>Zaki<br>Daniel<br>Hauke |
+| Foosloose        | Ulrike  | Carolin<br>Stefanie<br>Katharina           |
+| ACABall          | Henrike | Emma<br>Janek<br>Rasko                     |
 
 | Rank | Team             | Gespielt | Gewonnen | Verloren | Punkte |
 |------|------------------|----------|----------|----------|--------|
 | 1    | sos-k            | 0        | 0        | 0        | 0      |
 | 2    | Antifa Hooligans | 0        | 0        | 0        | 0      |
 | 3    | Prontosaurus     | 0        | 0        | 0        | 0      |
+| 4    | Foosloose        | 0        | 0        | 0        | 0      |
+| 5    | ACABall          | 0        | 0        | 0        | 0      |
