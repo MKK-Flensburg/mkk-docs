@@ -15,7 +15,7 @@
 - [FTL Spielregeln](docs/FTL_Regeln.md)
 
 ## Organisation
-- [Teamanmeldung](https://forms.gle/NstwNGLCHDmkLS9AA)
+- [Teamanmeldung](https://forms.gle/NstwNGLCHDmkLS9AA) (Saison Herbst 2026)
 - [Spielplan](https://docs.google.com/spreadsheets/d/1r6rP5uVYI2N7XG9XGGp-1ZUqRTqt_TUhif_xGnCSvJI)
 - [Kontakt zur Ligaleitung und anderen Teams](https://t.me/FlensTischLiga)
 
