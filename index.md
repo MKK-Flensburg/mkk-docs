@@ -38,3 +38,4 @@
 | Prontosaurus     | Marvin  | Jukka<br>Thekla<br>Zaki<br>Daniel<br>Hauke |
 | Foosloose        | Ulrike  | Carolin<br>Stefanie<br>Katharina           |
 | ACABall          | Henrike | Emma<br>Janek<br>Rasko                     |
+| Die Eisbrecher   | Anton   | Helene<br>Andreas<br>Sascha<br>Laurence    | 
