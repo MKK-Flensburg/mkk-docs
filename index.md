@@ -21,13 +21,22 @@
 
 ---
 
-## Saisons
-
-### Frühjahr 2026
-
 #### Ergebnisse und Begegnungen
 
 [https://live.alpha.kickertool.de/flensliga](https://live.alpha.kickertool.de/flensliga)
+
+---
+## Saisons
+
+### Herbst 2026
+
+#### Teamaufstellungen
+
+| Team | Kapitän | Mitglieder |
+|------|---------|------------|
+|      |         |            | 
+
+### Frühjahr 2026
 
 #### Teamaufstellungen
 
