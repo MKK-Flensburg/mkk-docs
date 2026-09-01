@@ -32,9 +32,10 @@
 
 #### Teamaufstellungen
 
-| Team | Kapitän | Mitglieder |
-|------|---------|------------|
-|      |         |            | 
+| Team             | Kapitän | Mitglieder                |
+|------------------|---------|---------------------------|
+| Antifa Hooligans | Jan     | Damian<br>Olaf<br>Luigi   |
+| Foosloose        | Ulrike  | Steffi<br>Caro<br>Kerstin |
 
 ### Frühjahr 2026
 
