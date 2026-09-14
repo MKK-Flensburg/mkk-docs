@@ -36,6 +36,8 @@
 |------------------|---------|---------------------------|
 | Antifa Hooligans | Jan     | Damian<br>Olaf<br>Luigi   |
 | Foosloose        | Ulrike  | Steffi<br>Caro<br>Kerstin |
+| HefTIGERen | Helene | Daniel<br>Kim<br>Rasmus<br>Jukka<br>Fernando |
+| Die Eisbrecher | Niklas | Sascha<br>Laurence<br>Benni<br>David |
 
 ### Frühjahr 2026
 
